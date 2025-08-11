@@ -1,0 +1,61 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    background-color: #333333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Intro Section */
+.intro {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #ccc;
+}
+
+/* Card Section to show Box Model */
+.card {
+    background-color: #e7f3fe;
+    margin: 30px;
+    padding: 20px;
+    border: 3px solid #0077cc;
+}
+
+.card button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #005fa3;
+}
+
+/* Footer Styling */
+footer {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
